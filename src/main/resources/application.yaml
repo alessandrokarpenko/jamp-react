@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: Task
+  couchbase:
+    username: Administrator
+    password: password
+    connection-string: couchbase://localhost
+  data.couchbase:
+    bucket-name: sports
